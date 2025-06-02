@@ -17,3 +17,6 @@ MonoBehaviour:
     portrait: {fileID: -1758491772989330527, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
     dialogueText: "\xC9 aqui que eu coloquei a ficha daquele fliperama que eu visitava
       com o Rafa"
+  - name: Gui
+    portrait: {fileID: -1758491772989330527, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: Vou colocar na minha mochila, posso precisar depois

@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Efeitos sonoros icon_0: -3390154263212019244
+      Efeitos sonoros icon_1: -413264859068475207
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -4446,6 +4446,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3604367959358071000, guid: bd530710b2af427439fe162aa9bfa71d, type: 3}
   m_PrefabInstance: {fileID: 1368310170319191976}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1335651161 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 247060536590556202, guid: bd530710b2af427439fe162aa9bfa71d, type: 3}
+  m_PrefabInstance: {fileID: 1368310170319191976}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335651158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1367121860
 GameObject:
   m_ObjectHideFlags: 0
@@ -5429,6 +5440,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2086442214 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5706353573257560426, guid: bd530710b2af427439fe162aa9bfa71d, type: 3}
+  m_PrefabInstance: {fileID: 1368310170319191976}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2136799956
 GameObject:
   m_ObjectHideFlags: 0
@@ -5997,6 +6013,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 524607128}
     m_Modifications:
+    - target: {fileID: 3487094037016498373, guid: fa87953b44c9aeb438ec55bd508fdffa, type: 3}
+      propertyPath: button
+      value: 
+      objectReference: {fileID: 1335651161}
+    - target: {fileID: 3487094037016498373, guid: fa87953b44c9aeb438ec55bd508fdffa, type: 3}
+      propertyPath: uiFeedback
+      value: 
+      objectReference: {fileID: 2086442214}
+    - target: {fileID: 3487094037016498373, guid: fa87953b44c9aeb438ec55bd508fdffa, type: 3}
+      propertyPath: feedbackTime
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4485034852753919421, guid: fa87953b44c9aeb438ec55bd508fdffa, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6256,6 +6284,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 524607128}
     m_Modifications:
+    - target: {fileID: 350743185436027746, guid: 54ef665b108d5fd45a76026e0db70146, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -2.7499847
+      objectReference: {fileID: 0}
     - target: {fileID: 1656397338374272936, guid: 54ef665b108d5fd45a76026e0db70146, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

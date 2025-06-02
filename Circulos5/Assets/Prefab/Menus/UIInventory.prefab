@@ -132,3 +132,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_slotPrefab: {fileID: 8900439664343451487, guid: 133be0546e135ba44a2733cf0a08227f, type: 3}
   inventoryActive: 0
+  button: {fileID: 0}
+  bagClosed: {fileID: 3240130137451975133, guid: b0e31dddf7c6d554583d88295755d580, type: 3}
+  bagOpened: {fileID: -5347824271505137900, guid: b0e31dddf7c6d554583d88295755d580, type: 3}

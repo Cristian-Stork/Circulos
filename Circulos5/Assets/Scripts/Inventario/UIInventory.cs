@@ -1,5 +1,7 @@
 using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIInventory : MonoBehaviour
 {
@@ -7,6 +9,12 @@ public class UIInventory : MonoBehaviour
 
     [SerializeField] private GameObject m_slotPrefab;
     public bool inventoryActive;
+
+    [SerializeField] private Image button;
+    [SerializeField] private Sprite bagClosed;
+    [SerializeField] private Sprite bagOpened;
+
+    [SerializeField] private Animator uiFeedback;
 
     private void Awake()
     {
@@ -27,6 +35,8 @@ public class UIInventory : MonoBehaviour
         }
 
         DrawInventory();
+
+        UIFeedback();
     }
 
     public void DrawInventory()
@@ -54,6 +64,7 @@ public class UIInventory : MonoBehaviour
             Manager.instance.inventoryButtonPressed = true;
             Manager.instance.ToggleInteracting(inventoryActive);
             Movement.instance.StopMoving();
+            ChangeButton(bagOpened);
         }
 
         else
@@ -65,6 +76,7 @@ public class UIInventory : MonoBehaviour
                 Tool.instance.TurnOffAllFrames();
                 Tool.instance.ClearSelectedItems();
                 Tool.instance.toolMode = false;
+                ChangeButton(bagClosed);
             }
 
             Manager.instance.ToggleInteracting(inventoryActive);
@@ -72,5 +84,15 @@ public class UIInventory : MonoBehaviour
         }
 
         inventoryActive = !inventoryActive;
+    }
+
+    public void ChangeButton(Sprite newSprite)
+    {
+        button.sprite = newSprite;
+    }
+
+    public void UIFeedback()
+    {
+        uiFeedback.SetTrigger("isOn");
     }
 }
