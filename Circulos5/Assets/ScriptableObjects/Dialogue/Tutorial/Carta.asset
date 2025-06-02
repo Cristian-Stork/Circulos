@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e3937ced8231845ad5291fe9470a42, type: 3}
+  m_Name: Carta
+  m_EditorClassIdentifier: 
+  dialogueData:
+  - name: Gui
+    portrait: {fileID: 4576490153401815736, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: "Eu n\xE3o sabia que o Rafa ia comemorar o anivers\xE1rio dele."
+  - name: Gui
+    portrait: {fileID: 8103138012474216245, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: "Ningu\xE9m comemora mais o anivers\xE1rio fora de casa"
+  - name: Gui
+    portrait: {fileID: 8375883361204404704, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: "N\xE3o acredito que ele n\xE3o quer que eu v\xE1! Faz tanto tempo
+      que a gente n\xE3o se v\xEA"
+  - name: Gui
+    portrait: {fileID: -3684559868088970874, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: ...
+  - name: Gui
+    portrait: {fileID: 910412979723014829, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: "Ah! Que se dane, eu n\xE3o vou deixar o Rafa comemorar o anivers\xE1rio
+      dele sozinho!"
+  - name: Gui
+    portrait: {fileID: 8103138012474216245, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: "Eu s\xF3 preciso enfrentar todas as consequ\xEAncias do apocalipse
+      clim\xE1tico."
+  - name: Gui
+    portrait: {fileID: 8375883361204404704, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: O que poderia dar errado?

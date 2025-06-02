@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e3937ced8231845ad5291fe9470a42, type: 3}
+  m_Name: Senhora
+  m_EditorClassIdentifier: 
+  dialogueData:
+  - name: "Dona Pet\xFAnia"
+    portrait: {fileID: 4572803512989622044, guid: 82fc842586d3c0848abfaa0c86650985, type: 3}
+    dialogueText: "Guizinho! Preciso de ajuda, meu filho.\r"
+  - name: "Dona Pet\xFAnia"
+    portrait: {fileID: 5744289660583172630, guid: 82fc842586d3c0848abfaa0c86650985, type: 3}
+    dialogueText: Desde que o Francisco morreu, tenho que cuidar das plantas sozinha!
+  - name: "Dona Pet\xFAnia"
+    portrait: {fileID: 4572803512989622044, guid: 82fc842586d3c0848abfaa0c86650985, type: 3}
+    dialogueText: "Voc\xEA pode pegar o adubo para mim, por favor? Deve estar mais
+      para a frente no corredor"
+  - name: "Dona Pet\xFAnia"
+    portrait: {fileID: 3905583211762395711, guid: 82fc842586d3c0848abfaa0c86650985, type: 3}
+    dialogueText: "Eu preciso que voc\xEA misture tudo para mim tambem, por favor"
+  - name: "Dona Pet\xFAnia"
+    portrait: {fileID: 3905583211762395711, guid: 82fc842586d3c0848abfaa0c86650985, type: 3}
+    dialogueText: "Eu j\xE1 n\xE3o tenho mais a for\xE7a que tinha antes"
+  - name: Gui
+    portrait: {fileID: 910412979723014829, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: "Claro, dona Pet\xFAnia!"

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e3937ced8231845ad5291fe9470a42, type: 3}
+  m_Name: Senhora 4
+  m_EditorClassIdentifier: 
+  dialogueData:
+  - name: "Dona Pet\xFAnia"
+    portrait: {fileID: -9002303400733614435, guid: 82fc842586d3c0848abfaa0c86650985, type: 3}
+    dialogueText: Obrigada, Guizinho!
+  - name: Gui
+    portrait: {fileID: 910412979723014829, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: De nada, a senhora sabe como abrir a porta?
+  - name: "Dona Pet\xFAnia"
+    portrait: {fileID: 3905583211762395711, guid: 82fc842586d3c0848abfaa0c86650985, type: 3}
+    dialogueText: "Sei sim. Por que voc\xEA quer sair?\r\nN\xE3o \xE9 perigoso?"
+  - name: Gui
+    portrait: {fileID: -1366677707310408443, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: "Sim. Mas eu quero comemorar o anivers\xE1rio do meu amigo, o Rafa."
+  - name: "Dona Pet\xFAnia"
+    portrait: {fileID: 7574707062680963133, guid: 82fc842586d3c0848abfaa0c86650985, type: 3}
+    dialogueText: "Ah! O Rafa! Eu lembro das vezes que voc\xEAs passaram aqui.\r"
+  - name: "Dona Pet\xFAnia"
+    portrait: {fileID: -5807141960882245829, guid: 82fc842586d3c0848abfaa0c86650985, type: 3}
+    dialogueText: "Tudo bem, eu daria de tudo para comemorar o anivers\xE1rio do
+      meu Francisco de novo.\r"
+  - name: "Dona Pet\xFAnia"
+    portrait: {fileID: -5807141960882245829, guid: 82fc842586d3c0848abfaa0c86650985, type: 3}
+    dialogueText: "A senha \xE9 o dia do nosso casamento: 110980"
+  - name: Gui
+    portrait: {fileID: 7618525467599093992, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: "Obrigado, dona Pet\xFAnia!"

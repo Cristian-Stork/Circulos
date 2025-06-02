@@ -1,0 +1,362 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2770264581602556177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 816336546229327301}
+  - component: {fileID: 6256784704030746611}
+  m_Layer: 0
+  m_Name: DiarioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &816336546229327301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2770264581602556177}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9651821, y: -0.60263264, z: 0.048147887}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6256784704030746611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2770264581602556177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b4940b92916ca2408eb804c174f5bea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diarioPanel: {fileID: 0}
+  sumarioPanel: {fileID: 0}
+  paginaPanel: {fileID: 0}
+  tituloPaginaText: {fileID: 0}
+  conteudoPaginaText: {fileID: 0}
+  proximoButton: {fileID: 0}
+  anteriorButton: {fileID: 0}
+  voltarAoSumarioButton: {fileID: 0}
+  titulosPaginas:
+  - '26 de novembro - 2050 '
+  - '12 de dezembro - 2050 '
+  - '13 de dezembro - 2050 '
+  - 19 de dezembro - 2050
+  - 25 de dezembro - 2050
+  - 10 de janeiro - 2051
+  - 14 de janeiro - 2051
+  - 15 de janeiro de 2051
+  - 05 de fevereiro - 2051
+  - 06 de fevereiro - 2051
+  - 07 de fevereiro - 2051
+  - 17 de fevereiro - 2051
+  - 20 de fevereiro - 2051
+  - "08 de mar\xE7o - 2051"
+  - 12 de abril - 2051
+  - 20 de abril - 2051
+  - 23 de abril - 2051
+  - 24 de abril - 2051
+  - 27 de abril - 2051
+  - 30 de abril - 2051
+  - 04 de junho - 2051
+  - 14 de junho - 2050
+  - 20 de junho - 2050
+  - 22 de junho - 2051
+  - 30 de junho - 2051
+  - 09 de julho - 2051
+  - 15 de julho - 2051
+  - 23 de julho - 2051
+  - 06 de agosto - 2051
+  - 17 de agosto - 2051
+  - 25 de agosto - 2051
+  - 04 de setembro - 2051
+  - 15 de setembro - 2051
+  - 20 de setembro - 2051
+  - 23 de setembro - 2051
+  conteudosPaginas:
+  - "\tEu n\xE3o sei muito bem o que aconteceu na cidade, s\xF3 que terminei a escola
+    e agora tenho que colocar todas as minhas coisas no caminh\xE3o do v\xF4 L\xFAcio,
+    ele veio bem cedo pra evitar o Sol e vai dirigir a noite, ele passa muito mal
+    \xE0s vezes por causa do calor.\r\n\tN\xE3o sei como S\xE3o Paulo \xE9 um lugar
+    melhor que aqui, s\xE9rio. \t\tVotorantim \xE9 uma cidade pequena e compacta
+    e eu gosto do sorvete do centro, de passar tempo naquela Americanas horr\xEDvel
+    e comprar qualquer bugiganga que eu encontrar no Gianolla e na Patricinha.\r\n\tEu
+    sei que as lojas s\xF3 abrem uma vez por semana por causa do calor e eu sei que
+    \xE0s vezes elas nem abrem pela falta de \xE1gua ou pelo excesso de chuva, mas
+    eu gosto!\r\n\tN\xE3o achei que ia passar minha formatura de fundamental numa
+    viagem chata para S\xE3o Paulo e muito menos escrevendo um di\xE1rio (o que \xE9
+    meio cringe), mas a psic\xF3loga que meus pais est\xE3o pagando disse que vai
+    me acostumar com a mudan\xE7a. Vamos ver.\r\n"
+  - "\tS\xE3o Paulo \xE9 um saco. Mas \xE9 mais normal do que eu esperava.\r\n\tAqui
+    \xE9 feio, tipo, bem feio mesmo, minha m\xE3e explicou que eles usaram brutalismo
+    por toda a cidade e \xE9 por isso que \xE9 tudo em tons de cinza chato e meio\u2026
+    sufocante? acho.\r\n\tSinto que tenho uma vida mais perto do normal. As aulas
+    v\xE3o ser presenciais aqui, o que \xE9 muito legal porque passei num curso de
+    sistemas e vai ter um laborat\xF3rio de verdade. N\xE3o sei muito bem o motivo
+    daqui ser mais parecido com o que era no passado, mas \xE9 legal. Sinto que n\xE3o
+    vai durar pra sempre.\r\n\tN\xE3o tinha muitos amigos pr\xF3ximos, por causa
+    do EAD e tals, ent\xE3o pensar em interagir com gente da minha idade e na vida
+    real \xE9 meio assustador.\r\n\tO apartamento \xE9 legal, ele fica no \xFAltimo
+    andar de um pr\xE9dio enorme e um cinza menos triste que os outros pr\xE9dios,
+    o nosso ap\xEA ocupa um andar inteiro.\r\n\tS\xF3 que o pr\xE9dio \xE9 estranhamente
+    vazio. Acho que devem ter mais tr\xEAs fam\xEDlias morando aqui, deve ser os
+    pre\xE7os.\r\n"
+  - "\tDescobri que n\xE3o \xE9 o pr\xE9dio que \xE9 estranhamente vazio, \xE9 meio
+    que tudo.\r\n\tSempre vi em not\xEDcias que S\xE3o Paulo era enorme e com um
+    tr\xE2nsito absurdo e voc\xEA tinha que pegar um bilh\xE3o de metr\xF4s para
+    chegar em algum lugar e que \u201Cperto\u201D significava duas horas. Mas n\xE3o
+    \xE9 t\xE3o movimentado assim, acho que tem bastante gente voltando para seus
+    estados e vendo familiares.\r\n\tMinha m\xE3e disse que vai explicar melhor amanh\xE3
+    no jantar.\r\n"
+  - "\tQueria conversar com a psic\xF3loga antes de escrever de novo. Minha m\xE3e
+    contou que est\xE3o come\xE7ando a fazer expedi\xE7\xF5es para outros planetas
+    agora, tipo, porque aqui \xE9 meio hostil e tudo.\r\n\tN\xE3o sei como lidar
+    com isso, eu s\xF3 tenho 14 anos. Nunca conheci o mundo de verdade e agora ele
+    j\xE1 est\xE1 acabando, \xE9 assustador. Ela disse que \xE9 bem parecido com
+    o livro de Blade Runner (n\xE3o sabia que tinha um livro, s\xF3 os filmes) e
+    que seria legal eu ler (n\xE3o vou, mas posso pensar em assistir) para ter uma
+    no\xE7\xE3o.\r\n\tEnt\xE3o eu meio que s\xF3 tenho que viver, eu acho, ou sobreviver,
+    sei l\xE1.\r\n\tMinha m\xE3e tamb\xE9m disse que est\xE3o tentando melhorar a
+    vida aqui, s\xF3 que n\xE3o depende apenas da gente. Ela disse que \xE9 uma das
+    engenheiras florestais contratadas para um \u201CPlano de Recupera\xE7\xE3o\u201D,
+    s\xF3 que ela n\xE3o pareceu nem otimista e nem pessimista, provavelmente para
+    n\xE3o causar nenhuma emo\xE7\xE3o em mim tamb\xE9m.\r\nSendo sincero, realmente
+    n\xE3o tenho emo\xE7\xF5es sobre isso. O que eu poderia fazer sobre? Provavelmente
+    nada, s\xF3 consigo pensar que \xE9 sim um saco eu ter que sofrer as consequ\xEAncias
+    de eventos clim\xE1ticos que eu nunca causei.\r\n"
+  - "\tEu ganhei um kit de ferramentas de Natal, o que \xE9 a mesma coisa que ganhei
+    ano passado, na verdade, s\xF3 que \xE9 de outra marca. N\xE3o quero estressar
+    meus pais com isso, no meio da correria da mudan\xE7a e seja l\xE1 o que for
+    que eles estejam fazendo agora, sei que s\xF3 querem o melhor pra mim. O v\xF4
+    L\xFAcio veio passar o Natal com a gente, ele me deu Death Stranding II para
+    meu Playstation 5, estou bem ansioso pra jogar.\r\n\tMas aconteceu uma coisa
+    interessante, o Papai Noel aqui de S\xE3o Paulo s\xE3o drones!\r\n\tTipo, eu
+    estava sentado na cama e ouvi umas batidas na janela (o que me assustou pra caramba
+    porque como diabos algu\xE9m ia bater na janela do meu quarto no \xFAltimo andar
+    de um pr\xE9dio) e era um drone, ele tinha uma lente na frente e ficou esperando
+    eu pegar a encomenda, quando peguei, ele tirou uma foto minha com um flash absurdamente
+    branco e saiu.\r\n\tO que, sendo sincero, \xE9 mais legal que o Papai Noel.\r\n\r\n"
+  - "\tHoje fomos comprar meu material escolar e eu fiquei muito surpreso que n\xF3s
+    temos que pedir para ligarem o elevador. \r\n\tFunciona assim: descobri que realmente
+    s\xF3 tem outras tr\xEAs fam\xEDlias vivendo aqui, ent\xE3o o representante de
+    cada uma delas conversam entre si e combinam um dia da semana para que o elevador
+    seja utilizado. Ent\xE3o \xE9 assim que a gente vive, \xE9 pra economizar \xE1gua
+    e energia. Os outros andares s\xE3o inabit\xE1veis.\r\n\tEu n\xE3o tenho tanto
+    problema com isso, nunca saia muito de casa em Votorantim mesmo.\r\n\tVou perguntar
+    para o meu pai como vou pra escola diariamente ent\xE3o, ele que foi comprar
+    os materiais comigo hoje, ent\xE3o ele deve estar mais envolvido com esse lance
+    da escola.\r\n\tComprei um caderno de Interestelar, nem sabia que tinham estampa
+    dele, mas acho que com tudo\u2026 isso acontecendo, a fic\xE7\xE3o cient\xEDfica
+    ficou bem mais popular.\r\n"
+  - "\tMeu pai disse que eu vou ter que, todos os dias, andar entre as passarelas
+    dos pr\xE9dios que s\xE3o tipo, v\xE1rias pontes que conectam eles, que s\xE3o
+    completamente seguras de acordo com ele, minha m\xE3e e o senhorio. Eu ainda
+    n\xE3o passei por l\xE1 para testar, mas fiquei sabendo que elas s\xE3o constru\xEDdas
+    de um jeito diferente, pra aguentar tempestades e o calor.\r\n\tEu n\xE3o tenho
+    medo de altura, mas \xE9 meio assustador, sim. Vou cronometrar o tempo que demoro
+    pra caminhar um dia desses pra saber o qu\xE3o mais cedo tenho que sair de casa
+    pra ir pra escola.\r\n\r\n"
+  - "\tFiz o trajeto entre pr\xE9dios at\xE9 o metr\xF4 e tinha um rob\xF4 no lobby?
+    Cara? Eu sempre soube que eles eram mais acess\xEDveis agora, mas ainda \xE9
+    meio assustador ver eles por a\xED, uma vibe meio Detroit Become Human.\r\nPra
+    ser sincero, tinham dois rob\xF4s. Um era apenas um carinha legal, j\xE1 que
+    tem alguns lugares entre os pr\xE9dios para o pessoal sentar e descansar, sabe?
+    Ver o Sol se p\xF4r sem pegar c\xE2ncer de pele. O outro era um rob\xF4 jardineiro,
+    ele s\xF3 estava cuidando das plantas e pareceu ofendido quando perguntei o que
+    ele estava fazendo, ent\xE3o acho que ele s\xF3 gosta muito de trabalhar.\r\nO
+    resto do caminho foi tranquilo, mas \xE9 bem demorado passar pelos pr\xE9dios,
+    vou ter que acordar cedo para pegar o metr\xF4 no hor\xE1rio certo.\r\n"
+  - "\tAmanh\xE3 \xE9 o primeiro dia de aula, n\xE3o consigo dormir de ansiedade,
+    deixei toda a minha roupa pronta para levantar, tomar banho e me arrumar. N\xE3o
+    sei o que esperar, n\xE3o sei quem esperar. Quero que d\xEA certo, quero que
+    seja normal como meus pais diziam que era antes. E se n\xE3o for, eu n\xE3o tenho
+    nada a perder.\r\n\r\n"
+  - "\tFoi, realmente, normal\r\n\tE isso \xE9 muito bom, tipo, muito bom mesmo.
+    N\xE3o tivemos aula hoje, os veteranos escreveram \u201Cbixo\u201D em todos os
+    lugares poss\xEDveis e corremos de um lado para o outro com bexigas de \xE1gua.
+    A diretora da escola tamb\xE9m fez um tour com a gente, ela estava usando um
+    megafone, nunca tinha visto um.\r\n\tN\xE3o conversei com tantas pessoas porque
+    n\xE3o sabia quem era da mesma sala que eu, mas meu pai disse que tenho que encontrar
+    uma pessoa e n\xE3o desgrudar dela at\xE9 que voc\xEA descubra se gosta dela
+    ou n\xE3o, ent\xE3o \xE9 isso que vou fazer.\r\n\r\n"
+  - "\tAparentemente, todo mundo meio que j\xE1 se conhece, eles vieram das mesmas
+    escolas ou cresceram juntos e \xE9 meio dif\xEDcil se auto colocar num grupinho
+    de amigos que j\xE1 est\xE1 pronto. A\xED aconteceu uma coisa meio esquisita.\r\n\tEu
+    tinha acabado de pegar meu caderno da bolsa e colocado ele na mesa, o menino
+    sentado na minha frente viu e falou: \u201CInterestelar \xE9 um filme muito merda\u201D
+    e eu respondi \u201Cmerda \xE9 voc\xEA\u201D e agora a gente meio que \xE9 amigo,
+    o nome dele \xE9 Rafael.\r\n"
+  - "\tOcorreu tudo bem na primeira semana, os professores s\xE3o legais e o pessoal
+    \xE9 legal no geral tamb\xE9m, n\xE3o tenho muito do que reclamar. Tamb\xE9m
+    gosto da comida, todas as refei\xE7\xF5es s\xE3o vegetarianas. O Rafa faz parte
+    do time de futebol agora, ele \xE9 goleiro, e perguntou se quero ir nos jogos
+    dele, disse que sim, mas acho que ele esqueceu que vale presen\xE7a nas aulas.\r\n\tTem
+    tipo um grupo de estudos de computa\xE7\xE3o as vezes, ainda estou decidindo
+    se vou me inscrever, mas acho que vou sim.\r\n\r\n"
+  - "\tNo grupo de computa\xE7\xE3o abrimos e remontamos um computador, o que \xE9
+    um pouco de falta de criatividade, n\xE3o minto, mas acho que vai melhorar mais
+    pra frente. A professora que \xE9 respons\xE1vel pelo grupo \xE9 bem engra\xE7ada
+    tamb\xE9m, disse que a maior parte das aulas v\xE3o ser pr\xE1ticas.\r\n\tO time
+    do Rafa ganhou o \xFAltimo jogo, ele disse que a gente deveria ir em algum lugar
+    comemorar, mas ainda n\xE3o decidiu, ele tamb\xE9m n\xE3o conhece S\xE3o Paulo
+    muito bem, se mudou um ano atr\xE1s, mas disse que quando escolher ele vai me
+    avisar.\r\n\r\n"
+  - "\tA gente foi num fliperama! Eu nunca tinha ido em um e ele disse que tamb\xE9m
+    n\xE3o, ent\xE3o a gente gastou todo o dinheiro que nossos pais mandaram e em
+    todas as m\xE1quinas. Jogamos Street Fighter II, Mortal Kombat, Metal Slug (meu
+    favorito), Tartarugas Ninja, Ghosts \u2018n Goblins e tinha muita coisa l\xE1
+    e v\xE1rios consoles e voltamos muito tarde. Guardei uma ficha no meu quarto
+    para me lembrar de hoje.\r\n\t\xC9 uma caminhadinha at\xE9 l\xE1, mas vale a
+    pena, combinamos de ir no fliperama uma vez por m\xEAs.\r\n\r\n"
+  - "\tOdeio fazer provas, eu sempre vou bem nelas, mas \xE9 um saco, meu deus. Os
+    professores marcaram todas elas na mesma semana para ser mais f\xE1cil, o que
+    \xE9 mesmo, mas \xE9 chato. Tive que faltar do grupo de computa\xE7\xE3o na \xFAltima
+    semana e me deixou meio de mau humor.\r\n\tMinha m\xE3e tamb\xE9m est\xE1 fora,
+    ela foi passar o m\xEAs com o v\xF4 L\xFAcio, ela disse que ele n\xE3o est\xE1
+    muito bem, \xE9 o calor e tudo, s\xF3 que n\xE3o me deu mais detalhes, acho que
+    \xE9 para n\xE3o me deixar t\xE3o triste. \xC9 tudo meio que um combo as provas,
+    a sa\xFAde ele e o calor, \xE9 uma onda de pessimismo.\r\n"
+  - "\t\tAs provas acabaram e n\xF3s vamos no fliperama amanh\xE3 comemorar, as m\xE3es
+    do Rafa disseram que eu deveria dormir no apartamento delas pra levarem a gente
+    ao cinema no outro dia, eu topei e meu pai tamb\xE9m deixou. Vamos assistir Velozes
+    e Furiosos XX, e o Rafa ainda disse que o meu gosto para filmes \xE9 ruim.\r\n\tA
+    gente tamb\xE9m tem que fazer um trabalho no s\xE1bado, ent\xE3o t\xE1 tudo certo.\r\n\r\n"
+  - "\tN\xE3o est\xE1 tudo certo. Eu estava fazendo o trabalho de biologia com o
+    Rafa e minha m\xE3e pediu para eu voltar para casa, fiquei assustado e voltei
+    bem r\xE1pido. Ela me disse que o v\xF4 L\xFAcio tinha falecido, ele n\xE3o aguentou
+    o calor.\r\n\tOlha, eu vou ficar triste e sei que vai passar e sei que \xE9 um
+    saco passar pelo processo de luto e tudo o que vem com ele, eu s\xF3 queria que
+    idosos n\xE3o fossem t\xE3o teimosos. O v\xF4 poderia ter vindo morar com a gente
+    e talvez agora ele ainda estivesse bem, ele s\xF3 n\xE3o quis sair da casa dele.\r\n"
+  - "\tEu n\xE3o entendo, eu n\xE3o entendo, eu n\xE3o entendo. A gente chamou ele
+    v\xE1rias vezes para vir aqui com a gente, pra sair daquela casa velha, sem preparo
+    nenhum pro tempo que vivemos e que eu tive que adaptar v\xE1rias coisas pra ele
+    poder viver melhor e do que isso adiantou? Nada. Agora a gente tem que lidar
+    com o que sobrou dele e toda essa teimosia n\xE3o valeu de nada.\r\n"
+  - "\tN\xE3o fui pra escola essa semana ainda, sinto que n\xE3o importa o quanto
+    eu pense, n\xE3o consigo entender o que levaria algu\xE9m a ficar completamente
+    despreparado assim e agir de maneira est\xFApida. Minha m\xE3e disse que o Rafa
+    ligou para ela para perguntar como eu estava, que ele n\xE3o queria me incomodar.\r\n"
+  - "\tN\xE3o fui ao clube essa semana, s\xF3 me sinto p\xE9ssimo. N\xE3o quero ir
+    pra lugar nenhum. Esse calor n\xE3o para."
+  - "\tFaz um tempo que n\xE3o escrevo. Foi um m\xEAs dif\xEDcil, acho. Agora j\xE1
+    \xE9 junho e estamos quase de f\xE9rias, nem parece que comecei uma escola nova
+    esse ano, \xE9 meio dif\xEDcil ter no\xE7\xE3o de tempo quando s\xF3 existem
+    dois climas (inferno e dil\xFAvio).\r\n"
+  - "\tCombinei de sair com o pessoal do clube de computa\xE7\xE3o nas f\xE9rias,
+    n\xF3s vamos num dos poucos cinemas que ainda funcionam. Estou tentando seguir
+    em frente e \xE9 dif\xEDcil. Mas eu tenho os meus pais, o Rafa e os meus outros
+    amigos \u2013 e obviamente a terapeuta.\r\n"
+  - "\t\tFiquei com muita raiva do calor hoje, n\xE3o ficava assim desde quando eu
+    era crian\xE7a.\r\n\tClaro que tem a ver com a morte do v\xF4, tudo tem rela\xE7\xE3o
+    com isso ultimamente. Mas \xE9 dif\xEDcil sofrer as consequ\xEAncias de algo
+    que eu n\xE3o causei.\r\n\tEu n\xE3o usei a maior parte da \xE1gua pot\xE1vel
+    do mundo, eu n\xE3o desmatei \xE1rvores para plantar eucalipto, eu n\xE3o desmatei
+    ainda mais para criar gado e eu n\xE3o polui os rios com os res\xEDduos das minhas
+    empresas. Tem muita, muita gente mesmo, que ainda acredita que n\xF3s pud\xE9ssemos
+    ter melhorado o mundo, como se parar de usar canudos de pl\xE1stico fosse a solu\xE7\xE3o
+    e n\xE3o acabar com as grandes empresas que poluem.\r\n\tAgora eu n\xE3o tenho
+    v\xF4 e os donos dessas empresas nem na Terra est\xE3o mais, \xF3timo.\r\n\r\n"
+  - "\tO cinema foi legal, n\xF3s vimos o filme de Grim Fandango, que eu nunca pensei
+    que iria ganhar uma adapta\xE7\xE3o, mas a ind\xFAstria deve estar ficando sem
+    ideias do que adaptar, ent\xE3o fica fazendo adapta\xE7\xF5es de jogos. Alex
+    deu tr\xEAs estrelas e meia no Letterboxd, o que achei muito arrogante da parte
+    delu.\r\n\tEu dei cinco estrelas e a Carol tamb\xE9m, a gente gosta muito de
+    anima\xE7\xF5es.\r\n\r\n"
+  - "\tDescobri que o Rafa nunca tinha visto os filmes do Senhor dos An\xE9is (n\xE3o
+    os remakes de 2040, mas sim os dos anos 2000), ent\xE3o ele vai vir em casa para
+    a gente assistir (disse que \u201CSenhor dos An\xE9is \xE9 coisa de nerd e o
+    Tolkien \xE9 racista\u201D, as duas coisas meio que s\xE3o verdade). Ele disse
+    que vai me fazer jogar Assassin\u2019s Creed Paths of Others, nunca tive nenhum
+    interesse na franquia (tirando aquela vez que a Ubisoft zoou o falecido Elon
+    Musk no Twitter), ent\xE3o vai ser uma experi\xEAncia de todos os tempos.\r\n"
+  - "\t\tEstou trabalhando num projeto pessoal, tentando montar um projetor com umas
+    pe\xE7as velhas que ando encontrando, \xE9 meio dif\xEDcil, mas estou conseguindo
+    encontrar bastante coisa, at\xE9. N\xE3o queria pedir um para os meus pais porque
+    ouvi eles conversando dizendo que o funeral ficou extremamente caro, ent\xE3o
+    posso me virar \u2013 e \xE9 bem divertido.\r\n"
+  - "\tAlex, Carol e Rafa queriam muito me ajudar com o projetor e decidiram que
+    seria uma \xF3tima ideia entrar em alguma loja de conserto de computadores abandonada
+    e, mesmo cagando de medo, eu topei sob o argumento irrefut\xE1vel que os tr\xEAs
+    me apresentaram de \u201Cvai viver ou t\xE1 com d\xF3?\u201D.\r\n\tO que a gente
+    n\xE3o esperava era que a Carol se cortasse com um metal extremamente velho e
+    tivemos que explicar para nossos pais porque todos n\xF3s est\xE1vamos pedindo
+    para tomar a vacina de t\xE9tano dos 15 anos o mais r\xE1pido poss\xEDvel.\r\n\tMas
+    encontrei umas pe\xE7as legais.\r\n"
+  - "\tAs aulas voltaram e iniciamos a semana com um jogo do Rafa (que ele defendeu
+    todos os p\xEAnaltis e fiquei devendo um salgado de br\xF3colis pra ele) e revis\xE3o
+    das mat\xE9rias. Tudo tranquilo, mas diferente, \xE9 como se algo estivesse faltando
+    (est\xE1).\r\n"
+  - "\tAs coisas est\xE3o come\xE7ando a melhorar de verdade, as f\xE9rias ajudaram
+    e, agora que as aulas come\xE7aram, sinto que posso fingir um pouco que nada
+    aconteceu e focar na escola. Meus pais me colocaram em mais sess\xF5es de terapia
+    e sinto que at\xE9 o fim do ano n\xE3o vou mais precisar do di\xE1rio.\r\n\tTivemos
+    que fazer uma maquete essa semana para demonstrar os efeitos clim\xE1ticos das
+    bombas at\xF4micas, o que \xE9 muito triste, mas relembrar para n\xE3o esquecer
+    e tudo mais. A escola tamb\xE9m tem um recurso de hologramas interativos para
+    a gente colocar na maquete, ent\xE3o fica bem bacana assistir. Tiramos MB.\r\n\r\n"
+  - "\tEnquanto estava amassando o Rafa em Mortal Kombat hoje (eu de Tanya e ele
+    de Mileena), expliquei para ele que faltava pouco para terminar o projetor, mas
+    eu precisava de umas lentes bacanas e estava dif\xEDcil de encontrar \u2013 n\xE3o
+    \xE9 nem por dinheiro, mas quero fazer o projetor de um jeito recicl\xE1vel.
+    \r\n\tUm dos funcion\xE1rios ouviu o que est\xE1vamos falando e disse que posso
+    olhar os fundos da loja um dia para procurar, que uma vez eles fizeram uma promo\xE7\xE3o
+    onde os clientes traziam c\xE2meras antigas e, em troca, ganhavam desconto em
+    jogos que tiravam fotos (tipo Life is Strange, Pok\xE9mon Snap, Season: a letter
+    to the future e mais alguns). Algumas c\xE2meras estavam inutiliz\xE1veis e eles
+    guardaram, disse que posso levar a caixa se quiser (\xF3bvio que eu disse sim).\r\n\r\n"
+  - "\tAlex veio em casa para fazermos um trabalho do clube e aproveitei para pedir
+    ajuda para arrumar o laser do projetor. Elu prefere mais software, mas j\xE1
+    que estava em casa mesmo, poderia muito bem me ajudar.\r\n\tN\xF3s jogamos o
+    jogo de tabuleiro de Senhor dos An\xE9is (o de 7 Wonders, n\xE3o o de campanha)
+    e eu perdi, foi humilhante.\r\n\r\n"
+  - "\tN\xE3o tivemos aula hoje para assistir a grande final de futebol dos alunos,
+    que foi a nossa turma contra o 2\xBA ano de Sistemas Ambientais (aparentemente
+    os terceiros anos n\xE3o tem energia para jogar futebol por conta dos vestibulares,
+    o que me deixa meio at\xF4nito, para que estudar tanto se n\xE3o sabemos se teremos
+    futuro? Minha psic\xF3loga disse que n\xE3o d\xE1 para pensar assim, se n\xE3o
+    a humanidade n\xE3o continuaria existindo, ent\xE3o gosto de viver do melhor
+    jeito que d\xE1, mesmo com os pensamentos pessimistas). E, vamos ser sinceros
+    aqui, o pessoal de Sistemas Ambientais joga muito mal.\r\nS\xF3 que aparentemente
+    eles decidiram dedicar todos os poros do corpo deles e n\xF3s tomamos de lavada,
+    foi rid\xEDculo, mas pelo menos um rid\xEDculo acirrado, ok? \r\nDepois do jogo,
+    entreguei um buqu\xEA de papel para o Rafa (porque as flores de verdade s\xE3o
+    car\xEDssimas) e ele disse que o dia dele ficou um pouquinho menos pior. Carol
+    e Alex, que estavam roucas de gritar e torcer, disseram que todo mundo jogou
+    bem e deram suco para todos do time.\r\n"
+  - "\tSemana que vem vamos no zool\xF3gico da cidade e eu estou muito feliz. Sempre
+    ouvi dizer que era divertido e at\xE9 dava para fazer um passeio de saf\xE1ri.
+    O Rafa disse que eles n\xE3o fazem mais essas coisas porque os animais s\xE3o
+    todos hologramas agora, que n\xE3o aguentavam o calor. Fiquei bem triste com
+    a not\xEDcia, mas n\xE3o me desanimei.\r\n"
+  - "\tTerminei o projetor! E, sem querer me gabar, mas ficou brab\xEDssimo. No s\xE1bado
+    vamos todos na casa da Carol para assistir algum filme de car\xE1ter duvidoso,
+    s\xF3 precisamos de uma caixa de som, j\xE1 que n\xE3o coloquei isso no projeto.
+    Fiquei muito contente quando as c\xE2meras do fliperama funcionaram. Vou levar
+    alguma coisinha para os funcion\xE1rios de l\xE1, uma torta, n\xE3o sei."
+  - "\tRafael \xE9 um desgra\xE7ado mentiroso, minha nossa. Esse boc\xF3 de teta,
+    cabe\xE7a de ovo, me faz passar uma vergonha inimagin\xE1vel no zool\xF3gico,
+    ele agora \xE9 meu inimigo n\xFAmero um.\r\nFui at\xE9 uma funcion\xE1ria perguntar
+    qual era a marca do projetor que eles passavam os hologramas dos animais e a
+    pobre coitada nem sabia do que diabos eu estava falando, por que os animais eram
+    de verdade. Quando olhei para o Rafa, ele estava chorando de dar risada. \r\nEu
+    me vingarei (depois do filme de s\xE1bado, ele disse que queria muito ver como
+    tinha ficado o meu projetor porque eu fiz ele carregar aquela caixa cheia de
+    c\xE2meras at\xE9 a minha casa).\r\n\r\n"
+  diarioAberto: 0
+  uiScript: {fileID: 0}

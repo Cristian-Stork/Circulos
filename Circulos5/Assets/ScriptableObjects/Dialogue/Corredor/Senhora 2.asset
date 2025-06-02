@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e3937ced8231845ad5291fe9470a42, type: 3}
+  m_Name: Senhora 2
+  m_EditorClassIdentifier: 
+  dialogueData:
+  - name: "ona Pet\xFAnia"
+    portrait: {fileID: 3905583211762395711, guid: 82fc842586d3c0848abfaa0c86650985, type: 3}
+    dialogueText: "\xC9 muita saudade e muito trabalho"

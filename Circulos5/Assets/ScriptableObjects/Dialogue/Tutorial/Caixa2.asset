@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e3937ced8231845ad5291fe9470a42, type: 3}
+  m_Name: Caixa2
+  m_EditorClassIdentifier: 
+  dialogueData:
+  - name: Gui
+    portrait: {fileID: 8745631155152546060, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: Vamos ver o que tem aqui dentro

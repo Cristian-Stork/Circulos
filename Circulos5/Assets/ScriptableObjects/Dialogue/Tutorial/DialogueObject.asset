@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e3937ced8231845ad5291fe9470a42, type: 3}
+  m_Name: DialogueObject
+  m_EditorClassIdentifier: 
+  dialogueData:
+  - name: Teste
+    portrait: {fileID: 21300000, guid: 47adb65fd85428c4fa2f23b728a6044e, type: 3}
+    dialogueText: BABABBA
+  - name: Teste
+    portrait: {fileID: 21300000, guid: 47adb65fd85428c4fa2f23b728a6044e, type: 3}
+    dialogueText: LALALLA
+  - name: Muda de noime
+    portrait: {fileID: 21300000, guid: 86a1a01831a6c0f4fb938e76471a8a95, type: 3}
+    dialogueText: UOUOUOUO
+  - name: Teste
+    portrait: {fileID: 21300000, guid: 47adb65fd85428c4fa2f23b728a6044e, type: 3}
+    dialogueText: Fim
+  - name: Teste
+    portrait: {fileID: 21300000, guid: 47adb65fd85428c4fa2f23b728a6044e, type: 3}
+    dialogueText: Fim
