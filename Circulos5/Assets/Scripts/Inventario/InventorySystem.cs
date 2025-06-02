@@ -38,6 +38,8 @@ public class InventorySystem : MonoBehaviour
         }
 
         InventoryChangedEnter();
+
+        UIInventory.instance.UIFeedback();
     }
 
     public void Remove(InventoryItemData referenceData)

@@ -7,6 +7,7 @@ public class KeypadManager : MonoBehaviour
     [SerializeField] private string correctPassword;
 
     [SerializeField] private GameObject panel;
+    [SerializeField] private Animator confirmLight;
 
     [SerializeField] private GameInteraction interactionCheck;
 
@@ -15,6 +16,12 @@ public class KeypadManager : MonoBehaviour
     private void Start()
     {
         displayText.text = "";
+    }
+
+    private void Update()
+    {
+        if (solvedPassword && confirmLight != null)
+            confirmLight.SetTrigger("StayGreen");
     }
 
     public void ButtonClicked(int num)
@@ -71,22 +78,21 @@ public class KeypadManager : MonoBehaviour
             if (interactionCheck != null)
                 Manager.instance.Check(interactionCheck.requirements);
 
-            Manager.instance.ToggleInteracting(true);
-            panel.SetActive(false);
             solvedPassword = true;
-            Debug.Log("Senha correta");
 
-            GameInteraction interaction = GetComponent<GameInteraction>();
-
-            if (interaction != null)
-            {
-                GetComponent<GameInteraction>().CheckRequirements();
-            }
+            if (confirmLight != null)
+                confirmLight.SetTrigger("Green");
+            
+            Debug.Log("Senha correta");   
         }
 
         else
         {
             displayText.text = "";
+
+            if (confirmLight != null)
+                confirmLight.SetTrigger("Red");
+
             Debug.Log("Senha errada");
         }
     }
@@ -95,5 +101,17 @@ public class KeypadManager : MonoBehaviour
     {
         Manager.instance.ToggleInteracting(true);
         panel.SetActive(false);
+    }
+
+    public void AcertouSenha()
+    {
+        panel.SetActive(false);
+
+        GameInteraction interaction = GetComponent<GameInteraction>();
+
+        if (interaction != null)
+        {
+            GetComponent<GameInteraction>().CheckRequirements();
+        }
     }
 }

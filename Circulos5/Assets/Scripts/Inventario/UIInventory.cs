@@ -35,8 +35,6 @@ public class UIInventory : MonoBehaviour
         }
 
         DrawInventory();
-
-        UIFeedback();
     }
 
     public void DrawInventory()
