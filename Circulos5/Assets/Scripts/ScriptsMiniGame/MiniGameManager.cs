@@ -8,12 +8,13 @@ public class MiniGameManager : MonoBehaviour
     public GameObject painelMinigame;
 
     public float velocidadeNormal = 4f;
+    public float velocidadeMedia = 7f;
     public float velocidadeRapida = 10f;
 
     private Transform alvoAtual;
     private int cliquesRestantes = 3;
     private bool velocidadeAumentada = false;
-    private bool jogoAtivo = false;
+    [SerializeField] private bool jogoAtivo = false;
     private GameObject objMov;
     private Collider2D clickAreaCollider;
 
@@ -36,13 +37,28 @@ public class MiniGameManager : MonoBehaviour
         if (jogoAtivo && objMov != null)
         {
             MoverObjeto();
-            DetectarClique();
         }
     }
 
     void MoverObjeto()
     {
-        float velocidade = velocidadeAumentada ? velocidadeRapida : velocidadeNormal;
+        float velocidade = 0;
+
+        switch (cliquesRestantes)
+        {
+            case 3:
+                velocidade = velocidadeNormal;
+                break;
+
+            case 2:
+                velocidade = velocidadeMedia;
+                break;
+
+            case 1:
+                velocidade = velocidadeRapida;
+                break;
+        }
+
 
         objMov.transform.position = Vector2.MoveTowards(
             objMov.transform.position,
@@ -58,23 +74,20 @@ public class MiniGameManager : MonoBehaviour
 
     void DetectarClique()
     {
-        if (Input.GetMouseButtonDown(0) && cliquesRestantes > 0)
+        if (clickAreaCollider != null && clickAreaCollider.OverlapPoint(objMov.transform.position))
         {
-            if (clickAreaCollider != null && clickAreaCollider.OverlapPoint(objMov.transform.position))
-            {
-                velocidadeAumentada = true;
+            velocidadeAumentada = true;
 
-                float t = Random.Range(0f, 1f);
-                clickArea.position = Vector2.Lerp(pontoA.position, pontoB.position, t);
+            float t = Random.Range(0f, 1f);
+            clickArea.position = Vector2.Lerp(pontoA.position, pontoB.position, t);
 
-                cliquesRestantes--;
-            }
+            cliquesRestantes--;
+        }
 
-            if (cliquesRestantes == 0)
-            {
-                jogoAtivo = false;
-                VenceuJogo();
-            }
+        if (cliquesRestantes == 0)
+        {
+            jogoAtivo = false;
+            VenceuJogo();
         }
     }
 
@@ -82,6 +95,19 @@ public class MiniGameManager : MonoBehaviour
     {
         painelMinigame.SetActive(true);
         ResetarJogo(false); // Apenas prepara, não inicia
+    }
+
+    public void Calibrar()
+    {
+        if (jogoAtivo == false)
+        {
+            IniciarJogo();
+        }
+
+        else
+        {
+            DetectarClique();
+        }
     }
 
     public void IniciarJogo()

@@ -82,6 +82,9 @@ public class KeypadManager : MonoBehaviour
 
             if (confirmLight != null)
                 confirmLight.SetTrigger("Green");
+
+            else
+                AcertouSenha();
             
             Debug.Log("Senha correta");   
         }

@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Corredor.unity
     guid: 39f8ebc10bca6c44a965c7865faa6132
   - enabled: 1
+    path: "Assets/Scenes/Anima\xE7\xE3o1.unity"
+    guid: 5d85d2321eba48f469c3a4d9152fdbcd
+  - enabled: 1
+    path: "Assets/Scenes/Anima\xE7\xE3o2.unity"
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
     path: Assets/Scenes/Final.unity
     guid: fcc03dae37e16ff4ea736eb930ec0bbb
   m_configObjects:
