@@ -19,6 +19,7 @@ public class Tool : MonoBehaviour
     public ItemCombinations[] itemCombinations;
     public InventoryItemData[] selectedItems = new InventoryItemData[2];
 
+    [SerializeField] private InventoryItemData itemFail;
     [SerializeField] private DialogueObject dialogueFail;
 
     private void Awake()
@@ -79,15 +80,9 @@ public class Tool : MonoBehaviour
             }
         }
 
-        for (int i = 0 ;i < selectedItems.Length; i++)
-        {
-            if (selectedItems[i].id == "InventoryItemData_Adubo_Combinado")
-            {
-                //Add(Adubo_ruim);
-                return;
-            }
-        }
-
+        InventorySystem.instance.Add(itemFail);
+        InventorySystem.instance.Remove(selectedItems[0]);
+        InventorySystem.instance.Remove(selectedItems[1]);
         Debug.Log("Combinação não encontrada");
         UIInventory.instance.AccessInventory();
         toolMode = false;

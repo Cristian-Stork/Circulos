@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: InventoryItemData_Adubo_Errado
   displayName: Adubo
-  icon: {fileID: 7904347745770301845, guid: 88ad1afd084826c42b98010e1d4c65af, type: 3}
+  icon: {fileID: 8386686033042716415, guid: 88ad1afd084826c42b98010e1d4c65af, type: 3}
   prefab: {fileID: 0}
   isTool: 0
   isStackable: 0
