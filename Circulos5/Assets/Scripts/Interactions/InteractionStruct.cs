@@ -45,9 +45,11 @@ public class InteractionStruct : MonoBehaviour
     private void Start()
     {
         Transform targetTransform = transform.Find("Target");
-        Vector2 target = targetTransform.position;
-
-        if (target != null)
+        
+        if (targetTransform != null)
+        {
+            Vector2 target = targetTransform.position;
             targetPosition = target;
+        }
     }
 }

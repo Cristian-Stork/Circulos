@@ -6,6 +6,8 @@ public class MouseInteraction : MonoBehaviour
 
     [SerializeField] private LayerMask layer;
 
+    [HideInInspector] public Vector2 direction;
+
     private void Awake()
     {
         instance = this;
@@ -27,7 +29,7 @@ public class MouseInteraction : MonoBehaviour
                     Vector3 targetPosition = Camera.main.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y, 0));
                     Movement.instance.SetTarget(targetPosition);
                     Movement.instance.CheckMovement();
-                    SunDetection.instance.SetDirection(targetPosition, transform.position);
+                    SetDirection(targetPosition, transform.position);
                 }
 
                 if (hit.collider.tag == "interaction" && Manager.instance.isInteracting == false)
@@ -36,5 +38,10 @@ public class MouseInteraction : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void SetDirection(Vector2 target, Vector2 player)
+    {
+        direction = (target - player).normalized;
     }
 }

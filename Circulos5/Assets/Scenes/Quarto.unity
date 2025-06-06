@@ -312,7 +312,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 71783347}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -687,6 +687,7 @@ MonoBehaviour:
   selectedItems:
   - {fileID: 0}
   - {fileID: 0}
+  itemFail: {fileID: 0}
   dialogueFail: {fileID: 0}
 --- !u!1 &228384118
 GameObject:
@@ -888,6 +889,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 2
     interactions: 03000000080000000b000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -1211,7 +1213,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 459452489}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -1257,7 +1259,7 @@ GameObject:
   - component: {fileID: 484224451}
   - component: {fileID: 484224452}
   - component: {fileID: 484224449}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gaveta_0
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -1431,6 +1433,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000003000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -1443,7 +1446,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 517667961}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -1741,7 +1744,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 585381493}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -1952,7 +1955,7 @@ GameObject:
   - component: {fileID: 719916499}
   - component: {fileID: 719916498}
   - component: {fileID: 719916495}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: caixa_0
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -2112,6 +2115,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 00000000020000000500000003000000
+  targetPosition: {x: 0, y: 0}
   itemRequirement: {fileID: 11400000, guid: 8de46409ce2c29a4c9a570001f338301, type: 2}
   interactionCheck: {fileID: 719916499}
 --- !u!114 &719916499
@@ -2146,6 +2150,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 000000000500000006000000
+  targetPosition: {x: 0, y: 0}
   interactions2:
   - referenceItem: {fileID: 0}
     itemRequirment: {fileID: 0}
@@ -2485,6 +2490,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 03000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -2776,7 +2782,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 885208756}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -2821,7 +2827,7 @@ GameObject:
   - component: {fileID: 918934048}
   - component: {fileID: 918934050}
   - component: {fileID: 918934049}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Puff '
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -2988,6 +2994,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000003000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -3608,7 +3615,7 @@ GameObject:
   - component: {fileID: 1067032916}
   - component: {fileID: 1067032915}
   - component: {fileID: 1067032913}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Janela1-Sheet_1
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -3768,6 +3775,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 00000000040000000300000005000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -3811,7 +3819,7 @@ GameObject:
   - component: {fileID: 1143248901}
   - component: {fileID: 1143248902}
   - component: {fileID: 1143248899}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cama
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -3983,6 +3991,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000003000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -3999,7 +4008,7 @@ GameObject:
   - component: {fileID: 1241144883}
   - component: {fileID: 1241144884}
   - component: {fileID: 1241144881}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Computador
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -4168,6 +4177,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000003000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -4337,7 +4347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1297804203}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -4477,7 +4487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1367121862}
   - component: {fileID: 1367121861}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Chao
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -4721,6 +4731,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 03000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -5061,7 +5072,7 @@ GameObject:
   - component: {fileID: 1804144131}
   - component: {fileID: 1804144132}
   - component: {fileID: 1804144129}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Posters nerdola
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -5232,6 +5243,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 03000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -5244,7 +5256,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1832677025}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -5530,6 +5542,7 @@ MonoBehaviour:
   currentInteractionType: []
   currentInteractionNumber: 0
   gameInteraction: {fileID: 0}
+  target: {x: 0, y: 0}
 --- !u!212 &2145855995 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3129747022663555676, guid: ed8fb03ac064ee94bb15fb91abd54e83, type: 3}
