@@ -73,9 +73,9 @@ public class Manager : MonoBehaviour
         Interactions.instance.Interact(Interactions.instance.currentInteractionType, Interactions.instance.currentInteractionNumber);
     }
 
-    public void Move(Transform targetPosition)
+    public void Move(Vector2 targetPosition)
     {
-        Movement.instance.SetTarget(targetPosition.position);
+        Movement.instance.SetTarget(targetPosition);
         Movement.instance.CheckMovement();
         Debug.Log("Chamou movement no manager");
     }

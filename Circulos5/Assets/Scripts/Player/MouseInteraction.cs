@@ -4,6 +4,8 @@ public class MouseInteraction : MonoBehaviour
 {
     public static MouseInteraction instance;
 
+    [SerializeField] private LayerMask layer;
+
     private void Awake()
     {
         instance = this;
@@ -15,7 +17,7 @@ public class MouseInteraction : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Vector3 mousePosition = Input.mousePosition;
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y, 0)), Vector3.forward, 100);
+            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y, 0)), Vector3.forward, 100, layer);
 
             if (hit.collider != null)
             {
@@ -25,6 +27,7 @@ public class MouseInteraction : MonoBehaviour
                     Vector3 targetPosition = Camera.main.ScreenToWorldPoint(new Vector3(mousePosition.x, mousePosition.y, 0));
                     Movement.instance.SetTarget(targetPosition);
                     Movement.instance.CheckMovement();
+                    SunDetection.instance.SetDirection(targetPosition, transform.position);
                 }
 
                 if (hit.collider.tag == "interaction" && Manager.instance.isInteracting == false)

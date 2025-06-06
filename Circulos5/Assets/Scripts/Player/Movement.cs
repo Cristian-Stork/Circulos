@@ -68,7 +68,7 @@ public class Movement : MonoBehaviour
         ChangeSprite();
     }
 
-    public void SetTarget(Vector3 targetPosition)
+    public void SetTarget(Vector2 targetPosition)
     {
         target = new Vector2(targetPosition.x, targetPosition.y);
     }

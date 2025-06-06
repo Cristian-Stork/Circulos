@@ -12,6 +12,8 @@ public class Interactions : MonoBehaviour
 
     public InteractionStruct gameInteraction;
 
+    [HideInInspector] public Vector2 target;
+
     private void Awake()
     {
         instance = this;
@@ -45,8 +47,7 @@ public class Interactions : MonoBehaviour
         switch (interactions[currentInteraction].interactions[interactionNumber - 1])
         {
             case interactionEnum.move:
-                Transform targetPosition = gameInteraction.gameObject.transform.Find("Target");
-                Manager.instance.Move(targetPosition);
+                Manager.instance.Move(target);
                 Debug.Log("É pra mover");
                 break;
 

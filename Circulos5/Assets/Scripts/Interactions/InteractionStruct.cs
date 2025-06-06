@@ -39,4 +39,15 @@ public class InteractionStruct : MonoBehaviour
 
     [Header("Lista de Interações")]
     public InteractionTypes[] interactions;
+
+    [HideInInspector] public Vector2 targetPosition;
+
+    private void Start()
+    {
+        Transform targetTransform = transform.Find("Target");
+        Vector2 target = targetTransform.position;
+
+        if (target != null)
+            targetPosition = target;
+    }
 }

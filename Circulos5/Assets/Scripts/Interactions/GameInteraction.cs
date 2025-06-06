@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class GameInteraction : InteractionStruct
@@ -8,9 +9,11 @@ public class GameInteraction : InteractionStruct
     public bool[] requirements;
 
     public bool isSecondInteraction;
+
     public void CheckRequirements()
     {
         Interactions.instance.gameInteraction = this;
+        Interactions.instance.target = targetPosition;
 
         if (requirements.Length == 0)
         {

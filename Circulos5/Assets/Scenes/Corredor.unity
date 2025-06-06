@@ -599,7 +599,7 @@ GameObject:
   m_Component:
   - component: {fileID: 68965293}
   - component: {fileID: 68965292}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Chao
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -653,8 +653,8 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -3.8970578, y: 1.4695251}
-      - {x: -7.4836574, y: -2.1720731}
-      - {x: 23.37122, y: -2.1692514}
+      - {x: -8.814506, y: -3.6455138}
+      - {x: 24.914532, y: -3.7579532}
       - {x: 19.912077, y: 1.403786}
       - {x: 14.220123, y: 1.3652183}
       - {x: 13.06211, y: 0.29459906}
@@ -755,6 +755,7 @@ MonoBehaviour:
     newCamera: {fileID: 1227614399}
     nextScene: 0
     interactions: 0300000006000000080000000a0000000900000006000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -767,7 +768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 83602692}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -813,7 +814,7 @@ GameObject:
   - component: {fileID: 124645791}
   - component: {fileID: 124645790}
   - component: {fileID: 124645789}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SACOS DE PARADAS_0
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -927,6 +928,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000001000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -1494,9 +1496,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7620863429571597544, guid: 45cf17164b6f548408fa772ee674909a, type: 3}
+      propertyPath: layer.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
     - target: {fileID: 8977065067538123095, guid: 45cf17164b6f548408fa772ee674909a, type: 3}
       propertyPath: m_Name
       value: Gui
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977065067538123095, guid: 45cf17164b6f548408fa772ee674909a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1504,7 +1514,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8977065067538123095, guid: 45cf17164b6f548408fa772ee674909a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2125792385}
+      addedObject: {fileID: 2125792390}
+    - targetCorrespondingSourceObject: {fileID: 8977065067538123095, guid: 45cf17164b6f548408fa772ee674909a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2125792391}
+    - targetCorrespondingSourceObject: {fileID: 8977065067538123095, guid: 45cf17164b6f548408fa772ee674909a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2125792392}
   m_SourcePrefab: {fileID: 100100000, guid: 45cf17164b6f548408fa772ee674909a, type: 3}
 --- !u!1 &201454764
 GameObject:
@@ -1515,7 +1531,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 201454765}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -1995,7 +2011,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 255613475}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -2038,7 +2054,7 @@ GameObject:
   - component: {fileID: 258768376}
   - component: {fileID: 258768387}
   - component: {fileID: 258768375}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Latas de Lixo_1
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -2081,6 +2097,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000002000000
+  targetPosition: {x: 0, y: 0}
   itemRequirement: {fileID: 11400000, guid: e1aecd296df334140bf752e1f1a3a1c9, type: 2}
   interactionCheck: {fileID: 0}
 --- !u!114 &258768377
@@ -2106,6 +2123,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 
+  targetPosition: {x: 0, y: 0}
   itemRequirement: {fileID: 11400000, guid: bd7e3dc719170444faee7800f9a38a27, type: 2}
   interactionCheck: {fileID: 0}
 --- !u!114 &258768378
@@ -2131,6 +2149,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000002000000
+  targetPosition: {x: 0, y: 0}
   itemRequirement: {fileID: 11400000, guid: dac005d74684e2e4b9f7f2f36a539559, type: 2}
   interactionCheck: {fileID: 0}
 --- !u!114 &258768379
@@ -2156,6 +2175,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000002000000
+  targetPosition: {x: 0, y: 0}
   itemRequirement: {fileID: 11400000, guid: 22b5f8884167ded42b91748314ef0463, type: 2}
   interactionCheck: {fileID: 0}
 --- !u!114 &258768380
@@ -2181,6 +2201,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000002000000
+  targetPosition: {x: 0, y: 0}
   itemRequirement: {fileID: 11400000, guid: c73046f33f88e0443bb12dd043c143c8, type: 2}
   interactionCheck: {fileID: 0}
 --- !u!114 &258768381
@@ -2206,6 +2227,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000002000000
+  targetPosition: {x: 0, y: 0}
   itemRequirement: {fileID: 11400000, guid: f4567faf29fc62041b298e975284f56d, type: 2}
   interactionCheck: {fileID: 0}
 --- !u!114 &258768382
@@ -2231,6 +2253,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000002000000
+  targetPosition: {x: 0, y: 0}
   itemRequirement: {fileID: 11400000, guid: 69e6483d9500dde4ebc2ce8c1b0c05f9, type: 2}
   interactionCheck: {fileID: 0}
 --- !u!114 &258768383
@@ -2256,6 +2279,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000003000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -2399,6 +2423,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000002000000
+  targetPosition: {x: 0, y: 0}
   itemRequirement: {fileID: 11400000, guid: 19c74b4d1f70f484b858eb5f3f2278a2, type: 2}
   interactionCheck: {fileID: 0}
 --- !u!1 &260249416
@@ -3256,87 +3281,87 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 224498355955698131, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 50.099422
+      value: 50.090904
       objectReference: {fileID: 0}
     - target: {fileID: 316826918420748857, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 33.83957
+      value: 33.83319
       objectReference: {fileID: 0}
     - target: {fileID: 384880614375568050, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.6095767
+      value: 6.6031957
       objectReference: {fileID: 0}
     - target: {fileID: 422378165392392533, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 54.509872
+      value: 54.507748
       objectReference: {fileID: 0}
     - target: {fileID: 469086847558421320, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 60.67987
+      value: 60.677746
       objectReference: {fileID: 0}
     - target: {fileID: 498023720981091237, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 35.709286
+      value: 35.698654
       objectReference: {fileID: 0}
     - target: {fileID: 573965140556576356, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.429708
+      value: 17.42545
       objectReference: {fileID: 0}
     - target: {fileID: 632618825211749233, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 46.36987
+      value: 46.367744
       objectReference: {fileID: 0}
     - target: {fileID: 904394227894172956, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 63.279724
+      value: 63.27547
       objectReference: {fileID: 0}
     - target: {fileID: 1516474698318848079, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 56.949284
+      value: 56.938652
       objectReference: {fileID: 0}
     - target: {fileID: 1542746104972478477, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.939293
+      value: 27.928656
       objectReference: {fileID: 0}
     - target: {fileID: 1597288721738300366, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 43.18928
+      value: 43.17865
       objectReference: {fileID: 0}
     - target: {fileID: 1848726140861852227, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.179295
+      value: 14.168661
       objectReference: {fileID: 0}
     - target: {fileID: 1913124871803961854, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.509588
+      value: 25.503206
       objectReference: {fileID: 0}
     - target: {fileID: 1943542648766130902, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.7092952
+      value: 0.6986584
       objectReference: {fileID: 0}
     - target: {fileID: 2399852106776054985, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.7301403
+      value: -1.7322677
       objectReference: {fileID: 0}
     - target: {fileID: 2513341340889548716, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.1037455
+      value: -4.1165094
       objectReference: {fileID: 0}
     - target: {fileID: 3185429456630116467, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.4702815
+      value: -1.4745361
       objectReference: {fileID: 0}
     - target: {fileID: 3577766996101829439, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.839296
+      value: 8.828663
       objectReference: {fileID: 0}
     - target: {fileID: 3685576826189567136, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 60.33942
+      value: 60.330902
       objectReference: {fileID: 0}
     - target: {fileID: 3847339107284181295, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.4004235
+      value: -7.4068046
       objectReference: {fileID: 0}
     - target: {fileID: 4102878348461687412, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_Name
@@ -3344,75 +3369,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4117458048693477398, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.8907056
+      value: -5.901343
       objectReference: {fileID: 0}
     - target: {fileID: 4669364435297933193, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.269726
+      value: 34.265472
       objectReference: {fileID: 0}
     - target: {fileID: 4920723997480316550, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.089434
+      value: 21.080923
       objectReference: {fileID: 0}
     - target: {fileID: 4951515313229370183, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.439859
+      value: 4.4377313
       objectReference: {fileID: 0}
     - target: {fileID: 5089040685383604085, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 54.51957
+      value: 54.51319
       objectReference: {fileID: 0}
     - target: {fileID: 5116947004130815179, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 54.769726
+      value: 54.765472
       objectReference: {fileID: 0}
     - target: {fileID: 5131024925789184865, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.359861
+      value: 17.357735
       objectReference: {fileID: 0}
     - target: {fileID: 5244174198713738109, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.7204233
+      value: -1.7268056
       objectReference: {fileID: 0}
     - target: {fileID: 5348589127150805339, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.339294
+      value: 21.328657
       objectReference: {fileID: 0}
     - target: {fileID: 5390105427417047154, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.829588
+      value: 19.823206
       objectReference: {fileID: 0}
     - target: {fileID: 5421377055243662243, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 31.669863
+      value: 31.667736
       objectReference: {fileID: 0}
     - target: {fileID: 5496705085553181417, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.050703
+      value: -13.0613365
       objectReference: {fileID: 0}
     - target: {fileID: 5649166578139510806, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.870144
+      value: -9.872273
       objectReference: {fileID: 0}
     - target: {fileID: 5851203716004562253, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 62.849567
+      value: 62.84319
       objectReference: {fileID: 0}
     - target: {fileID: 5853482026678614887, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 64.71928
+      value: 64.708626
       objectReference: {fileID: 0}
     - target: {fileID: 5983932933256708600, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.140561
+      value: -6.1490707
       objectReference: {fileID: 0}
     - target: {fileID: 6064691730071110946, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.039716
+      value: 7.0354614
       objectReference: {fileID: 0}
     - target: {fileID: 6230762241167266818, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.390705
+      value: -18.401342
       objectReference: {fileID: 0}
     - target: {fileID: 6509645595489645041, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: parallaxCamera
@@ -3420,15 +3445,15 @@ PrefabInstance:
       objectReference: {fileID: 470353583}
     - target: {fileID: 6807886784646777912, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.0994387
+      value: 4.090929
       objectReference: {fileID: 0}
     - target: {fileID: 6827071404756081338, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.75971
+      value: 25.755451
       objectReference: {fileID: 0}
     - target: {fileID: 7223474650528259007, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.479298
+      value: 8.468664
       objectReference: {fileID: 0}
     - target: {fileID: 7288567839467531904, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3472,35 +3497,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7450672445195382699, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 31.329433
+      value: 31.320923
       objectReference: {fileID: 0}
     - target: {fileID: 7642614754979622234, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 48.83957
+      value: 48.83319
       objectReference: {fileID: 0}
     - target: {fileID: 7725860673383907194, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.499865
+      value: 25.497738
       objectReference: {fileID: 0}
     - target: {fileID: 7791728903137861516, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.1037455
+      value: -4.1165094
       objectReference: {fileID: 0}
     - target: {fileID: 7992076512752527802, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 50.349285
+      value: 50.338654
       objectReference: {fileID: 0}
     - target: {fileID: 8659078289653147097, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.8002825
+      value: -9.804538
       objectReference: {fileID: 0}
     - target: {fileID: 8771932472552282282, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 46.439724
+      value: 46.43547
       objectReference: {fileID: 0}
     - target: {fileID: 8941276388698212746, guid: f6ec942a3fc7f704e8b786f776cb3744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.849285
+      value: 37.838654
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3746,7 +3771,7 @@ Transform:
   m_GameObject: {fileID: 470353577}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2162445, y: -1.01939, z: -10}
+  m_LocalPosition: {x: -2.2218065, y: -1.01942, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4562,7 +4587,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 569793518}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -5263,7 +5288,7 @@ GameObject:
   - component: {fileID: 631943563}
   - component: {fileID: 631943562}
   - component: {fileID: 631943561}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile Map_6
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -5322,6 +5347,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 000000000500000006000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -5874,7 +5900,7 @@ GameObject:
   - component: {fileID: 671400153}
   - component: {fileID: 671400152}
   - component: {fileID: 671400151}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SACOS DE PARADAS_2
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -5988,6 +6014,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000001000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -6047,9 +6074,10 @@ GameObject:
   m_Component:
   - component: {fileID: 677320763}
   - component: {fileID: 677320762}
-  m_Layer: 0
+  - component: {fileID: 677320764}
+  m_Layer: 6
   m_Name: "S\xF3 a luz"
-  m_TagString: Untagged
+  m_TagString: sun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6124,6 +6152,72 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &677320764
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677320761}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.4666667, y: 6.8}
+    newSize: {x: 6.4666667, y: 6.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 2.813511, y: -1.6000001}
+      - {x: 2.470326, y: -0.53831196}
+      - {x: 1.9221554, y: 1.1851631}
+      - {x: 1.6110739, y: 2.4295745}
+      - {x: 1.5098593, y: 2.8641279}
+      - {x: 1.213615, y: 2.7876034}
+      - {x: 0.89014083, y: 2.8814046}
+      - {x: 0.41362253, y: 3.078965}
+      - {x: -0.19624436, y: 2.185163}
+      - {x: -1.388822, y: 0.15802838}
+      - {x: -2.0801852, y: -0.8913619}
+      - {x: -2.6900368, y: -1.9925821}
+      - {x: -2.961689, y: -2.3036597}
+      - {x: -2.253052, y: -2.688823}
+      - {x: -1.0604742, y: -2.980185}
+      - {x: 0.07267356, y: -3.2271347}
+      - {x: 1.8604667, y: -2.7974615}
+      - {x: 2.408637, y: -2.7209365}
+      - {x: 2.9369926, y: -2.2789648}
+  m_UseDelaunayMesh: 0
 --- !u!1 &679093055
 GameObject:
   m_ObjectHideFlags: 0
@@ -6133,7 +6227,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 679093056}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -6253,7 +6347,7 @@ GameObject:
   - component: {fileID: 713150036}
   - component: {fileID: 713150033}
   - component: {fileID: 713150032}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SACOS DE PARADAS_2
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -6305,6 +6399,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000003000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -7605,7 +7700,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 938736800}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -8078,7 +8173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1047962459}
   - component: {fileID: 1047962458}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Chao (1)
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -8262,7 +8357,7 @@ GameObject:
   - component: {fileID: 1077433010}
   - component: {fileID: 1077433009}
   - component: {fileID: 1077433008}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: robo destruido-Sheet_0
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -8305,6 +8400,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000003000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -8767,7 +8863,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1206649665}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -9087,7 +9183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1219969264}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -9334,7 +9430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1265912859}
   - component: {fileID: 1265912858}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Chao (2)
   m_TagString: chao
   m_Icon: {fileID: 0}
@@ -9667,7 +9763,7 @@ GameObject:
   - component: {fileID: 1312568367}
   - component: {fileID: 1312568366}
   - component: {fileID: 1312568365}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SACOS DE PARADAS_3
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -9781,6 +9877,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000001000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -10351,7 +10448,7 @@ GameObject:
   - component: {fileID: 1394433581}
   - component: {fileID: 1394433580}
   - component: {fileID: 1394433579}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile Map_6
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -10474,6 +10571,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 000000000500000006000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -10533,7 +10631,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 350743185436027746, guid: 54ef665b108d5fd45a76026e0db70146, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2.7499847
+      value: -2.75
       objectReference: {fileID: 0}
     - target: {fileID: 404283946432000881, guid: 54ef665b108d5fd45a76026e0db70146, type: 3}
       propertyPath: m_Sprite
@@ -10874,7 +10972,7 @@ GameObject:
   - component: {fileID: 1418547943}
   - component: {fileID: 1418547942}
   - component: {fileID: 1418547941}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Robo Jardineiro-Sheet_0
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -10988,6 +11086,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000003000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -11093,6 +11192,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 01000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -11556,7 +11656,7 @@ GameObject:
   - component: {fileID: 1499204831}
   - component: {fileID: 1499204828}
   - component: {fileID: 1499204827}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SACOS DE PARADAS_0
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -11608,6 +11708,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000003000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -12433,7 +12534,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1620992953}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -13085,7 +13186,7 @@ GameObject:
   - component: {fileID: 1682561485}
   - component: {fileID: 1682561484}
   - component: {fileID: 1682561483}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tile Map_6
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -13144,6 +13245,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 000000000500000006000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -13257,7 +13359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1697326093}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -13335,6 +13437,7 @@ MonoBehaviour:
     newCamera: {fileID: 478096130}
     nextScene: 3
     interactions: 0300000006000000080000000a0000000900000006000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -13629,7 +13732,7 @@ GameObject:
   - component: {fileID: 1746028641}
   - component: {fileID: 1746028640}
   - component: {fileID: 1746028639}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SACOS DE PARADAS_1
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -13743,6 +13846,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000001000000
+  targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
   isSecondInteraction: 0
@@ -14154,7 +14258,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1786523621}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -14362,7 +14466,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1834026114}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -14639,6 +14743,7 @@ MonoBehaviour:
   currentInteractionType: []
   currentInteractionNumber: 0
   gameInteraction: {fileID: 0}
+  target: {x: 0, y: 0}
 --- !u!1 &1885624911
 GameObject:
   m_ObjectHideFlags: 0
@@ -15111,7 +15216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1976435007}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -16816,7 +16921,7 @@ GameObject:
   - component: {fileID: 2121263758}
   - component: {fileID: 2121263756}
   - component: {fileID: 2121263763}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Veia da flo_0
   m_TagString: interaction
   m_Icon: {fileID: 0}
@@ -16859,6 +16964,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 000000000300000002000000
+  targetPosition: {x: 0, y: 0}
   itemRequirement: {fileID: 11400000, guid: dac005d74684e2e4b9f7f2f36a539559, type: 2}
   interactionCheck: {fileID: 2121263759}
 --- !u!114 &2121263759
@@ -16893,6 +16999,7 @@ MonoBehaviour:
     newCamera: {fileID: 0}
     nextScene: 0
     interactions: 0000000003000000
+  targetPosition: {x: 0, y: 0}
   interactions2:
   - referenceItem: {fileID: 0}
     itemRequirment: {fileID: 0}
@@ -17139,18 +17246,95 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8977065067538123095, guid: 45cf17164b6f548408fa772ee674909a, type: 3}
   m_PrefabInstance: {fileID: 189598213}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2125792385
+--- !u!114 &2125792390
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125792384}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fe6496da2f7db348b278fd5a6362f7d, type: 3}
+  m_Script: {fileID: 11500000, guid: eab87ee8559579d498d232adae89f211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentInteraction: 0
+  interactions:
+  - referenceItem: {fileID: 0}
+    itemRequirment: {fileID: 0}
+    dialogueData: {fileID: 0}
+    newSprite: {fileID: 0}
+    turnOnGameObject: {fileID: 0}
+    teleportTransform: {fileID: 0}
+    newCamera: {fileID: 0}
+    nextScene: 0
+    interactions: 03000000060000000000000006000000
+  targetPosition: {x: 0, y: 0}
+  direction: {x: 0, y: 0}
+  distance: 0.5
+--- !u!58 &2125792391
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125792384}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.03, y: 0.43}
+  m_Radius: 0.67
+--- !u!50 &2125792392
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125792384}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2143468861
 GameObject:
   m_ObjectHideFlags: 0
