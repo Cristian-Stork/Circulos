@@ -13,6 +13,46 @@ MonoBehaviour:
   m_Name: Robo 2
   m_EditorClassIdentifier: 
   dialogueData:
+  - name: "Rob\xF4"
+    portrait: {fileID: -283234829160799944, guid: 61662c58968c95f4b900374354aa277c, type: 3}
+    dialogueText: "Bzzzzt.... Ol\xE1"
   - name: Gui
-    portrait: {fileID: 21300000, guid: 48149cf406e701d4794891538e193452, type: 3}
-    dialogueText: Robo 2
+    portrait: {fileID: 910412979723014829, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: "Nossa! Esse rob\xF4 t\xE1 funcionando!"
+  - name: Gui
+    portrait: {fileID: -4595938328875921899, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: "Ol\xE1, voc\xEA pode me ouvir?"
+  - name: "Rob\xF4"
+    portrait: {fileID: 3008400759366638649, guid: 61662c58968c95f4b900374354aa277c, type: 3}
+    dialogueText: Bzzt.. Afirmativo, posso te escutar
+  - name: "Rob\xF4"
+    portrait: {fileID: 5568159237652129845, guid: 61662c58968c95f4b900374354aa277c, type: 3}
+    dialogueText: "Minhas ordens s\xE3o de cuidar da vida org\xE2nica deste setor"
+  - name: Gui
+    portrait: {fileID: 8745631155152546060, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: "Voc\xEA ajuda a Dona Pet\xFAnia com as plantas?"
+  - name: "Rob\xF4"
+    portrait: {fileID: 5568159237652129845, guid: 61662c58968c95f4b900374354aa277c, type: 3}
+    dialogueText: Afirmativo! Bzzt...
+  - name: "Rob\xF4"
+    portrait: {fileID: -1302572624688919050, guid: 61662c58968c95f4b900374354aa277c, type: 3}
+    dialogueText: "Mas infelizmente, minhas pe\xE7as se tornaram desgastadas durante
+      as d\xE9cadas"
+  - name: "Rob\xF4"
+    portrait: {fileID: 7180758349755844007, guid: 61662c58968c95f4b900374354aa277c, type: 3}
+    dialogueText: "Voc\xEA poderia oferecer o seu apoio para que eu possa completar
+      o meu objetivo?"
+  - name: "Rob\xF4"
+    portrait: {fileID: -4591944844816308303, guid: 61662c58968c95f4b900374354aa277c, type: 3}
+    dialogueText: "Preciso que voc\xEA encontre os seguintes tipos de adubo e os
+      misture nessa ordem:"
+  - name: "Rob\xF4"
+    portrait: {fileID: -6261349162583256674, guid: 61662c58968c95f4b900374354aa277c, type: 3}
+    dialogueText: "1. Farinha de ossos, 2. H\xFAmus de minhoca, 3. Torta de mamona,
+      4. Cascas fibrosas Bzzt..."
+  - name: "Rob\xF4"
+    portrait: {fileID: 5568159237652129845, guid: 61662c58968c95f4b900374354aa277c, type: 3}
+    dialogueText: Combine todos e traga o resultado para mim
+  - name: Gui
+    portrait: {fileID: 910412979723014829, guid: e4324ea87dd9c694fa3c829c96d86fae, type: 3}
+    dialogueText: Claro!

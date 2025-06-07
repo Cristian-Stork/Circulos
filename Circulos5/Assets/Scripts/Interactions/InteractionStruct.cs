@@ -10,6 +10,7 @@ public enum interactionEnum
     dialogue,
     changeSprite,
     turnOn,
+    turnOff,
     toggleInteraction,
     destroy,
     fadeIn,
@@ -26,6 +27,7 @@ public struct InteractionTypes
     public DialogueObject dialogueData;
     public Sprite newSprite;
     public GameObject turnOnGameObject;
+    public GameObject turnOffGameObject;
     public Transform teleportTransform;
     public CinemachineCamera newCamera;
     public int nextScene;

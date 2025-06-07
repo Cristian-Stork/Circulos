@@ -77,6 +77,11 @@ public class Interactions : MonoBehaviour
                 Debug.Log("Ligou Game Object");
                 break;
 
+            case interactionEnum.turnOff:
+                Manager.instance.TurnOffGameObject(interactions[currentInteraction].turnOffGameObject);
+                Debug.Log("Desligou Game Object");
+                break;
+
             case interactionEnum.toggleInteraction:
                 Manager.instance.TurnOffInteraction();
                 Debug.Log("Desligou interação");

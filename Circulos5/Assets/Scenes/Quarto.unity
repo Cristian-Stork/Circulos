@@ -885,10 +885,11 @@ MonoBehaviour:
     dialogueData: {fileID: 11400000, guid: 78bdc8f2bd4d9f145ad41e198e65b0ea, type: 2}
     newSprite: {fileID: 0}
     turnOnGameObject: {fileID: 0}
+    turnOffGameObject: {fileID: 0}
     teleportTransform: {fileID: 0}
     newCamera: {fileID: 0}
     nextScene: 2
-    interactions: 03000000080000000b000000
+    interactions: 03000000090000000c000000
   targetPosition: {x: 0, y: 0}
   interactions2: []
   requirements: 
@@ -1420,6 +1421,7 @@ MonoBehaviour:
     dialogueData: {fileID: 11400000, guid: 44caa6838ae706f49b883b10590fad4d, type: 2}
     newSprite: {fileID: -2494791193838671314, guid: e74e76a2549d1244a8c2c0cfa6f8f8c9, type: 3}
     turnOnGameObject: {fileID: 0}
+    turnOffGameObject: {fileID: 0}
     teleportTransform: {fileID: 0}
     newCamera: {fileID: 0}
     nextScene: 0
@@ -1429,6 +1431,7 @@ MonoBehaviour:
     dialogueData: {fileID: 11400000, guid: 44caa6838ae706f49b883b10590fad4d, type: 2}
     newSprite: {fileID: -2494791193838671314, guid: e74e76a2549d1244a8c2c0cfa6f8f8c9, type: 3}
     turnOnGameObject: {fileID: 0}
+    turnOffGameObject: {fileID: 0}
     teleportTransform: {fileID: 0}
     newCamera: {fileID: 0}
     nextScene: 0
@@ -2111,6 +2114,7 @@ MonoBehaviour:
     dialogueData: {fileID: 11400000, guid: 0a8468f986c43934291fd6855e983d9d, type: 2}
     newSprite: {fileID: 0}
     turnOnGameObject: {fileID: 805174352}
+    turnOffGameObject: {fileID: 0}
     teleportTransform: {fileID: 0}
     newCamera: {fileID: 0}
     nextScene: 0
@@ -2137,19 +2141,21 @@ MonoBehaviour:
     dialogueData: {fileID: 11400000, guid: d2a18b591019596458289353245aa011, type: 2}
     newSprite: {fileID: 0}
     turnOnGameObject: {fileID: 1496165894}
+    turnOffGameObject: {fileID: 0}
     teleportTransform: {fileID: 0}
     newCamera: {fileID: 0}
     nextScene: 0
-    interactions: 00000000030000000500000006000000
+    interactions: 00000000030000000500000007000000
   - referenceItem: {fileID: 0}
     itemRequirment: {fileID: 0}
     dialogueData: {fileID: 11400000, guid: d2a18b591019596458289353245aa011, type: 2}
     newSprite: {fileID: 0}
     turnOnGameObject: {fileID: 1496165894}
+    turnOffGameObject: {fileID: 0}
     teleportTransform: {fileID: 0}
     newCamera: {fileID: 0}
     nextScene: 0
-    interactions: 000000000500000006000000
+    interactions: 000000000500000007000000
   targetPosition: {x: 0, y: 0}
   interactions2:
   - referenceItem: {fileID: 0}
@@ -2157,10 +2163,11 @@ MonoBehaviour:
     dialogueData: {fileID: 11400000, guid: bc5e265df7851484e9f401f0d8c6ab22, type: 2}
     newSprite: {fileID: -5981999539492917338, guid: 48832a4bbf762db478bd0b024e8cfd00, type: 3}
     turnOnGameObject: {fileID: 280163969}
+    turnOffGameObject: {fileID: 0}
     teleportTransform: {fileID: 0}
     newCamera: {fileID: 0}
     nextScene: 0
-    interactions: 04000000030000000500000006000000
+    interactions: 04000000030000000500000007000000
   requirements: 0000
   isSecondInteraction: 0
 --- !u!1 &729530021
@@ -2486,6 +2493,7 @@ MonoBehaviour:
     dialogueData: {fileID: 11400000, guid: 3b9e484717309714489ae16edb85e0c0, type: 2}
     newSprite: {fileID: 0}
     turnOnGameObject: {fileID: 0}
+    turnOffGameObject: {fileID: 0}
     teleportTransform: {fileID: 0}
     newCamera: {fileID: 0}
     nextScene: 0
@@ -2990,6 +2998,7 @@ MonoBehaviour:
     dialogueData: {fileID: 11400000, guid: defe4c730e7df234eb7ee13f8aed7e44, type: 2}
     newSprite: {fileID: 0}
     turnOnGameObject: {fileID: 0}
+    turnOffGameObject: {fileID: 0}
     teleportTransform: {fileID: 0}
     newCamera: {fileID: 0}
     nextScene: 0
@@ -3771,6 +3780,7 @@ MonoBehaviour:
     dialogueData: {fileID: 11400000, guid: aef264b693620a44bae9c4452057a8be, type: 2}
     newSprite: {fileID: -1801712292675773308, guid: 0d718ccd468c07c40b56a6cb42b06909, type: 3}
     turnOnGameObject: {fileID: 719916492}
+    turnOffGameObject: {fileID: 0}
     teleportTransform: {fileID: 0}
     newCamera: {fileID: 0}
     nextScene: 0
@@ -3987,6 +3997,7 @@ MonoBehaviour:
     dialogueData: {fileID: 11400000, guid: 2fd25ea16ec373c4e877d9bc36d34ece, type: 2}
     newSprite: {fileID: 0}
     turnOnGameObject: {fileID: 0}
+    turnOffGameObject: {fileID: 0}
     teleportTransform: {fileID: 0}
     newCamera: {fileID: 0}
     nextScene: 0
@@ -4173,6 +4184,7 @@ MonoBehaviour:
     dialogueData: {fileID: 11400000, guid: 4fff304456b1c1c489859fb87037c02b, type: 2}
     newSprite: {fileID: 0}
     turnOnGameObject: {fileID: 0}
+    turnOffGameObject: {fileID: 0}
     teleportTransform: {fileID: 0}
     newCamera: {fileID: 0}
     nextScene: 0
@@ -4727,6 +4739,7 @@ MonoBehaviour:
     dialogueData: {fileID: 11400000, guid: 67cc48259d33e87429566d33c4fa0dbd, type: 2}
     newSprite: {fileID: 0}
     turnOnGameObject: {fileID: 805174352}
+    turnOffGameObject: {fileID: 0}
     teleportTransform: {fileID: 0}
     newCamera: {fileID: 0}
     nextScene: 0
@@ -5239,6 +5252,7 @@ MonoBehaviour:
     dialogueData: {fileID: 11400000, guid: ea058c11399fb1c4496f15008b7f5b9e, type: 2}
     newSprite: {fileID: 0}
     turnOnGameObject: {fileID: 0}
+    turnOffGameObject: {fileID: 0}
     teleportTransform: {fileID: 0}
     newCamera: {fileID: 0}
     nextScene: 0
@@ -6335,6 +6349,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 524607128}
     m_Modifications:
+    - target: {fileID: 350743185436027746, guid: 54ef665b108d5fd45a76026e0db70146, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -2.7500458
+      objectReference: {fileID: 0}
     - target: {fileID: 1656397338374272936, guid: 54ef665b108d5fd45a76026e0db70146, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

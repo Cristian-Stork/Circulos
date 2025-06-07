@@ -130,6 +130,14 @@ public class Manager : MonoBehaviour
         LoopInteraction();
     }
 
+    public void TurnOffGameObject(GameObject gameObj)
+    {
+        gameObj.SetActive(false);
+        Debug.Log("Chamou turn off no manager");
+
+        LoopInteraction();
+    }
+
     public void TurnOffInteraction()
     {
         toggle = !toggle;

@@ -16,6 +16,7 @@ public class UseItem : InteractionStruct
             if (itemRequirement == frameParent.GetComponent<Slot>().itemSlot.data)
             {
                 Interactions.instance.gameInteraction = this;
+                Interactions.instance.target = targetPosition;
                 Interactions.instance.StartInteraction(interactions, currentInteraction);
                 UIInventory.instance.AccessInventory();
                 Manager.instance.Check(interactionCheck.requirements);
