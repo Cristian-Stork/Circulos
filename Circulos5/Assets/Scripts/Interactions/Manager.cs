@@ -33,6 +33,11 @@ public class Manager : MonoBehaviour
             chao.GetComponent<Collider2D>().enabled = toggleNew;
         }
 
+        GameObject sun = GameObject.FindGameObjectWithTag("sun");
+
+        if (sun != null)
+            sun.GetComponent<Collider2D>().enabled = toggleNew;
+
         if (inventoryButtonPressed == false)
         {
             inventoryButton.SetActive(toggleNew);

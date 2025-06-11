@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MiniGameManager : MonoBehaviour
 {
@@ -6,6 +7,10 @@ public class MiniGameManager : MonoBehaviour
     public Transform pontoB;
     public Transform clickArea;
     public GameObject painelMinigame;
+
+    [SerializeField] private Image light1;
+    [SerializeField] private Image light2;
+    [SerializeField] private Image light3;
 
     public float velocidadeNormal = 4f;
     public float velocidadeMedia = 7f;
@@ -38,6 +43,22 @@ public class MiniGameManager : MonoBehaviour
         {
             MoverObjeto();
         }
+
+        if (cliquesRestantes == 3)
+        {
+            light1.color = Color.red;
+            light2.color = Color.red;
+            light3.color = Color.red;
+        }
+
+        if (cliquesRestantes == 2)
+            light1.color = Color.green;
+
+        if (cliquesRestantes == 1)
+            light2.color = Color.green;
+
+        if (cliquesRestantes == 0)
+            light3.color = Color.green;
     }
 
     void MoverObjeto()
