@@ -2339,7 +2339,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Projeto C\xEDrculos"
+  m_text: No limite da troposfera
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8fad9de6fa4ab534e9e6ac74a4d6171f, type: 2}
   m_sharedMaterial: {fileID: -4107911014315307953, guid: 8fad9de6fa4ab534e9e6ac74a4d6171f, type: 2}
